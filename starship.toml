@@ -1,4 +1,4 @@
-palette = "ayumirage"
+palette = "everforestdark"
 
 format = """
 $character\
@@ -117,3 +117,12 @@ python = "#DCDCAA"
 go = "#9CDCFE"
 node = "#4EC9B0"
 rust = "#4EC9B0"
+
+[palettes.everforestdark]
+error = "#E67E81"
+success = "#7EB98C"
+directory = "#DBBC7F"
+branch = "#E67E81"
+symbol = "#7FBBB3"
+status = "#D699B6"
+python = "#DBBC7F"
