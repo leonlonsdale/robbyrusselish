@@ -6,6 +6,7 @@
 -   **catppuccin_mocha** (by [catppuccin](https://github.com/catppuccin/catppuccin))
 -   **darkplus** (VS Code default theme)
 -   **ayumirage** (by [ayu-theme](https://github.com/ayu-theme/ayu-colors))
+-   **everforestdark** (by [sainnhe](https://github.com/sainnhe/everforest))
 
 Each palette customizes the following prompt elements:
 
