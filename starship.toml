@@ -1,4 +1,4 @@
-palette = "tokyonight"
+palette = "github_dark"
 
 format = """
 $character\
@@ -126,3 +126,15 @@ branch = "#E67E81"
 symbol = "#7FBBB3"
 status = "#D699B6"
 python = "#DBBC7F"
+
+[palettes.github_dark]
+error = "#F25D5D"       # Red-ish tone for errors (GitHub's dark red)
+success = "#62D863"     # Green for success
+directory = "#8AB6D6"   # Soft blue for directory (matches GitHub dark background)
+branch = "#F25D5D"      # Red for git branch (to match the error color)
+symbol = "#8AB6D6"      # Light blue for symbol
+status = "#6C6C6C"      # Dark gray for status (GitHub dark status bar)
+python = "#FFD700"      # Yellow for Python, mimicking GitHub's yellowish tone
+node = "#80B6F4"        # Light blue for nodejs (if you choose to use it)
+rust = "#D77B7B"        # Rust color that’s not too overpowering (reddish)
+go = "#3E8EDE"          # Go language, matching the blue theme of GitHub dark
