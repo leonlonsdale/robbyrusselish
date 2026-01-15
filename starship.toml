@@ -1,15 +1,14 @@
-palette = "kanagawa"
+palette = "kanso"
 
 format = """
 $character\
 $directory\
 $git_branch\
 $git_status\
-$python"""
-# $nodejs\
-# $rust\
-# $golang
-
+$python\
+$nodejs\
+$rust\
+$golang"""
 add_newline = false
 
 [character]
@@ -24,6 +23,7 @@ style = "directory"
 [git_branch]
 symbol = "git"
 format = '[$symbol:\([$branch](branch)\)](symbol) '
+
 [git_status]
 style = "status"
 
@@ -31,20 +31,20 @@ style = "status"
 format = "[ $virtualenv ]($style) "
 style = "python"
 
-# [nodejs]
-# symbol = " "
-# format = "[$symbol]($style) "
-# style = "node"
+[nodejs]
+symbol = " "
+format = "[$symbol]($style) "
+style = "node"
 
-# [rust]
-# symbol = " "
-# format = "[$symbol]($style) "
-# style = "rust"
+[rust]
+symbol = " "
+format = "[$symbol]($style) "
+style = "rust"
 
-# [golang]
-# symbol = " "
-# format = "[$symbol]($style) "
-# style = "go"
+[golang]
+symbol = " "
+format = "[$symbol]($style) "
+style = "go"
 
 [palettes.tokyonight]
 error = "#f7768e"
@@ -126,15 +126,31 @@ branch = "#E67E81"
 symbol = "#7FBBB3"
 status = "#D699B6"
 python = "#DBBC7F"
+node = "#7EB98C"
+rust = "#D699B6"
+go = "#7FBBB3"
 
 [palettes.github_dark]
-error = "#F25D5D"       # Red-ish tone for errors (GitHub's dark red)
-success = "#62D863"     # Green for success
-directory = "#8AB6D6"   # Soft blue for directory (matches GitHub dark background)
-branch = "#F25D5D"      # Red for git branch (to match the error color)
-symbol = "#8AB6D6"      # Light blue for symbol
-status = "#6C6C6C"      # Dark gray for status (GitHub dark status bar)
-python = "#FFD700"      # Yellow for Python, mimicking GitHub's yellowish tone
-node = "#80B6F4"        # Light blue for nodejs (if you choose to use it)
-rust = "#D77B7B"        # Rust color that’s not too overpowering (reddish)
-go = "#3E8EDE"          # Go language, matching the blue theme of GitHub dark
+error = "#F25D5D"
+success = "#62D863"
+directory = "#8AB6D6"
+branch = "#F25D5D"
+symbol = "#8AB6D6"
+status = "#6C6C6C"
+python = "#FFD700"
+node = "#80B6F4"
+rust = "#D77B7B"
+go = "#3E8EDE"
+
+[palettes.kanso]
+error = "#c4746e"
+success = "#8a9a7b"
+directory = "#7FB4CA"
+branch = "#E46876"
+symbol = "#8ba4b0"
+status = "#938AA9"
+python = "#C4B28A"
+node = "#8ea4a2"
+rust = "#A292A3"
+go = "#7AA89F"
+
